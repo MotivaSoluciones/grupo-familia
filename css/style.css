@@ -4155,8 +4155,8 @@ FOOTER
 -----------------------------------*/
 
 .footer {
-    background-color: #6A6767;
-    color: #fff;
+    background-color: #e5e5e5;
+    color: #333;
     padding-top: 50px;
 }
 
@@ -4172,7 +4172,7 @@ FOOTER
 
 .footer .widget .widget-title {
     font-size: 19px;
-    color: #fff;
+    color: #333;
     margin-bottom: 20px;
     text-transform: uppercase;
 }
@@ -4193,7 +4193,7 @@ FOOTER
 }
 
 .footer .contact-info .phone {
-    color: #fff;
+    color: #333;
     font-size: 14px;
 }
 
@@ -4207,11 +4207,11 @@ FOOTER
 }
 
 .footer .our-service ul li a {
-    color: #fff;
+    color: #333;
 }
 
 .footer .our-service ul li a:hover {
-    color: #fff;
+    color: #333;
 }
 
 .footer .widget_social .social a {
@@ -4238,11 +4238,12 @@ FOOTER
 
 .footer .footer-bottom {
     margin-top: 40px;
-    background: #464646;
+    background: #074897;
 }
 
 .footer .footer-bottom p {
     margin-top: 22px;
+    color: #fff;
 }
 
 .footer .payment {
@@ -4909,7 +4910,7 @@ font-family: 'AkzidenzGrotesk';
     content: '';
     width: 50px;
     height: 2px;
-    background-color: #074897;
+    background-color: #e40f7c;
     display: block;
     margin: 0 auto;
     margin-top: 5px;
@@ -5579,7 +5580,7 @@ font-family: 'AkzidenzGrotesk';
     width: 0px;
     height: 2px;
     display: block;
-    background-color: #074897;
+    background-color: #e40f7c;
     margin: 0 auto;
     margin-top: 8px;
     content: '';
@@ -7869,7 +7870,7 @@ font-family: 'AkzidenzGrotesk';
     right: 10px;
     bottom: 70px;
     border-radius: 50%;
-    background-color: #074897;
+    background-color: #e40f7c;
     display: none;
     color: #fff;
     text-align: center;
@@ -9436,7 +9437,7 @@ RESPONSIVE
     background-color: #fff;
     border: 1px solid #333;
     border-left: 0;
-    color: #074897;
+    color: #e40f7c;
     padding: 11px 15px 13px;
     font-size: 14px;
     margin-top: 15px;
@@ -9541,7 +9542,7 @@ li.info-pts {
     width: 65px;
     height: 65px;
     text-align: center;
-    background-color: #fde300;
+    background-color: red;
     color: #fff;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -9891,4 +9892,7 @@ li.info-pts {
     margin-bottom: 0;
     font-weight: 600;
     color: #5f7800;
+}
+.header.style3 .main-menu > li:nth-last-child(3) {
+    display: none;
 }
